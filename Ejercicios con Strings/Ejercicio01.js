@@ -36,7 +36,6 @@ const CaracteresRepetidos = (cadena) => {
         for(let j = 0; j < cadena.length; j++ ) {
             
             (cadena[i] === cadena[j]) && cont++;
-            //console.log('a: ' + a + ' c: ' + cadena[i] + ' aux: ' + aux);
 
             if(cadena.length - 1 === j){
                 if (!cadenaAux.includes(cadena[i]) && cadena[i] !== ' ') {
