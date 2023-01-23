@@ -73,8 +73,6 @@ const pasarCerosDerechaSinMoverSusOtrosValores = (array) => {
             array2.push(array[i]); // No ceros
     }
 
-
-
     return array2.concat(array1);
 }
 
